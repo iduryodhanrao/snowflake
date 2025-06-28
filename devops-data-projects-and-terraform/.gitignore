@@ -1,0 +1,8 @@
+.snowflake/logs
+.snowflake/RSA_KEY.p8
+.snowflake/RSA_KEY.pub
+.snowflake/.cli_version.cache
+steps/output
+*.terraform*
+*.tfstate
+*.tfstate.*

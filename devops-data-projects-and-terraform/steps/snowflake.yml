@@ -1,0 +1,7 @@
+definition_version: 2
+entities:
+  DEVOPS_HOL:
+    type: project
+    stage: "DEVOPS_HOL_STAGE"
+    artifacts:
+      - definitions/*

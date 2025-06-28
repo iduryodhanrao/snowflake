@@ -1,0 +1,16 @@
+[cli.logs]
+save_logs = true
+path = "/workspaces/sfguide-devops-snowflake-data-projects/.snowflake/logs"
+level = "info"
+
+[cli.features]
+enable_snowflake_projects = true
+
+[connections.default]
+    role = "ATTENDEE_ROLE"
+    account = "REPLACEME"
+    user = "service_user"
+    schema = "DEV"
+    database = "UTILS"
+    authenticator = "SNOWFLAKE_JWT"
+    private_key_file = "/workspaces/sfguide-getting-started-with-devops-data-projects-in-snowflake/.snowflake/RSA_KEY.p8"
